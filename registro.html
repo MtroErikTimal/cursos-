@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro - Aula de Enfermería</title>
+  <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🩺 <span>Aula de Enfermería</span></div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="login.html">Login</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main class="auth-shell">
+    <section class="auth-card">
+      <h1>Crear cuenta</h1>
+      <form>
+        <label>
+          Nombre
+          <input type="text" placeholder="Tu nombre" />
+        </label>
+
+        <label>
+          Correo electrónico
+          <input type="email" placeholder="tu@correo.com" />
+        </label>
+
+        <label>
+          Contraseña
+          <input type="password" placeholder="••••••••" />
+        </label>
+
+        <button type="submit" class="btn-primary">Registrarme</button>
+      </form>
+      <p class="muted">¿Ya tienes cuenta? <a href="login.html">Inicia sesión</a></p>
+    </section>
+  </main>
+
+  <script src="assets/js/auth.js"></script>
+</body>
+</html>
