@@ -1,0 +1,16 @@
+aula-enfermeria
+│
+├── index.html
+├── login.html
+├── registro.html
+├── dashboard.html
+├── admin.html
+│
+├── css
+│   └── estilos.css
+│
+└── js
+    ├── app.js
+    ├── auth.js
+    ├── calculadoras.js
+    └── escalas.js
